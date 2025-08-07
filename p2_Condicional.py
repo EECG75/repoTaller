@@ -8,7 +8,7 @@ A continuación se muestra la estructura de control if. El programa
 
 edad = int(input("Ingresa tu edad: "))
 
-if edad >= 18: #edad >= 18 & edad <=30 (Operador and)
+if edad >= 18: #edad >= 18 and edad <=30 (Operador and)
     print("Eres mayor de edad.")
 elif edad > 0: #Abreviatura de un if....else
     print("Eres menor de edad.")

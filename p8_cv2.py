@@ -1,4 +1,4 @@
-import cv2
+import cv2 #Se instala cv2 desde terminal pip cv2 install
 
 # Cargar imagen en escala de grises
 imagen = cv2.imread("imagen.jpg")

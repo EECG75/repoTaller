@@ -2,8 +2,10 @@
 mietras que el usuario no presione el número cero'''
 
 print("\nCiclo while: escribe números (0 para salir)")
-numero = None
+numero = None #Para poner ningun valor
 while numero != 0:
     numero = int(input("Escribe un número: "))
     print("Escribiste:",numero)
 print("Terminaste el ciclo.")
+
+#Para incrementar un contador numero+=1
